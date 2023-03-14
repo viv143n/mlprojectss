@@ -1,8 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
-hypen_e_dot='
-.'
+hypen_e_dot='-e .'
 def get_requirements(file_path:str)->List[str]:
     '''
     This funciton will return the list of requirements
